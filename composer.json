@@ -46,6 +46,7 @@
         "xpdo/xpdo": "^3.0@dev"
     },
     "autoload": {
-        "classmap": ["core/xpdo/"]
+        "classmap": ["core/xpdo/"],
+        "psr-4": { "": "src/" }
     }
 }
